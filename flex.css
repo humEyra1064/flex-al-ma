@@ -3,3 +3,28 @@
     margin: 0;
     padding: 0;
 }
+body{
+    padding: 2rem;
+}
+h1{
+    text-align: center;
+    color: brown;
+
+}
+
+ul{list-style-type: none;
+    background-color: yellowgreen;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+
+}
+
+ul li{
+    background-color: tomato;
+    width: 6rem;
+}
